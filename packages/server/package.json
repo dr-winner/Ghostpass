@@ -1,0 +1,19 @@
+{
+  "name": "@ghostpass/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@cloudflare/blindrsa-ts": "0.4.6",
+    "@ghostpass/core": "workspace:*",
+    "@ghostpass/matcher": "workspace:*",
+    "@ghostpass/watcher-contract": "workspace:*",
+    "better-sqlite3": "12.4.1",
+    "cookie-parser": "1.4.7",
+    "express": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "1.4.10"
+  }
+}

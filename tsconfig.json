@@ -12,5 +12,5 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["packages/**/*.ts", "zwatch/**/*.ts", "scripts/**/*.ts"]
+  "include": ["packages/**/*.ts", "zwatch/**/*.ts", "apps/**/*.ts", "scripts/**/*.ts", "test/**/*.ts"]
 }

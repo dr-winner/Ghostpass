@@ -1,0 +1,22 @@
+{
+  "name": "@ghostpass/client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./widget": "./src/widget.ts"
+  },
+  "dependencies": {
+    "@cloudflare/blindrsa-ts": "0.4.6",
+    "@ghostpass/core": "workspace:*",
+    "idb-keyval": "6.3.0",
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "@ghostpass/server": "workspace:*",
+    "@types/qrcode": "1.5.6",
+    "better-sqlite3": "12.4.1",
+    "express": "5.1.0"
+  }
+}

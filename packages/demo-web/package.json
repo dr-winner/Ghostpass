@@ -1,0 +1,18 @@
+{
+  "name": "@ghostpass/demo-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./browser": "./src/browser.ts",
+    "./style.css": "./src/style.css"
+  },
+  "dependencies": {
+    "@ghostpass/client": "workspace:*",
+    "@ghostpass/core": "workspace:*",
+    "@ghostpass/server": "workspace:*",
+    "esbuild": "0.25.12",
+    "express": "5.1.0"
+  }
+}

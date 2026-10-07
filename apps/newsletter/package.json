@@ -1,0 +1,14 @@
+{
+  "name": "@ghostpass/newsletter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/app.ts",
+  "dependencies": {
+    "@ghostpass/client": "workspace:*",
+    "@ghostpass/core": "workspace:*",
+    "@ghostpass/demo-web": "workspace:*",
+    "@ghostpass/server": "workspace:*",
+    "express": "5.1.0"
+  }
+}

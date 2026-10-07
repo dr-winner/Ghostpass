@@ -1,0 +1,14 @@
+{
+  "name": "@ghostpass/dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/app.ts",
+  "dependencies": {
+    "@ghostpass/core": "workspace:*",
+    "@ghostpass/demo-web": "workspace:*",
+    "@ghostpass/server": "workspace:*",
+    "@ghostpass/watcher-contract": "workspace:*",
+    "express": "5.1.0"
+  }
+}

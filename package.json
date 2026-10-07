@@ -6,7 +6,9 @@
   "engines": { "node": ">=24.14.1 <25" },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "node --import tsx --test packages/watcher-contract/test/*.test.ts packages/matcher/test/*.test.ts zwatch/test/*.test.ts",
+    "test": "node --import tsx --test packages/*/test/*.test.ts zwatch/test/*.test.ts test/*.test.ts",
+    "dev": "GP_DEV_FAKE_PAYMENTS=1 node --import tsx scripts/demo.ts",
+    "start:demo": "node --import tsx scripts/demo.ts",
     "dev:watcher": "node --import tsx zwatch/src/cli.ts --fixture fixtures/watcher.json",
     "start:watcher": "node --import tsx zwatch/src/cli.ts",
     "demo:payments": "node --import tsx scripts/demo-payments.ts",
